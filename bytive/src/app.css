@@ -1,0 +1,45 @@
+.container {
+    margin: auto;
+    max-width: 95vw;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.cardsSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.formStyle {
+    padding-left: 5rem;
+}
+
+.CardStyle {
+    border: 1px solid #b8b8b8;
+    min-width: 330px;
+    margin: 1rem;
+}
+
+@media (max-width: 600px) {
+    .formStyle {
+        padding-left: 0rem;
+    }
+    .CardStyle{
+        min-width: 290px;
+    }
+}
+
+
+@media (max-width: 1400px) {
+    .container {
+        justify-content: center;
+    }
+
+    .cardsSection {
+        justify-content: center;
+    }
+
+}
