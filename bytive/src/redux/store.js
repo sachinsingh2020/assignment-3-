@@ -9,4 +9,4 @@ const store = configureStore({
 
 export default store
 
-export const server = "http://localhost:4000/api/user"
+export const server = "https://assignment-backend-2-alpha.vercel.app/api/user"
